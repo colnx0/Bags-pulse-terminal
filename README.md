@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ⚡ Bags Pulse Terminal
 
-First, run the development server:
+Real-time analytics dashboard for the Bags.fm ecosystem.
+
+### [🔗 Live Demo](https://bags-pulse-terminal.vercel.app/)
+
+</div>
+
+---
+
+**Bags Pulse** lets Bags.fm creators monitor market cap, volume, fees & royalties, discover trending projects, and launch fee-sharing tokens — all from one screen.
+
+> 👤 Click **"Explore as Guest"** to access the full dashboard without a wallet.
+
+## Features
+
+- 📊 **Live Stats** — Market cap, 24h volume, fees & 1% royalty split
+- 📈 **Pulse Chart** — Interactive price chart with D/W/M toggle
+- 🔥 **Alpha Feed** — Trending projects leaderboard
+- 🚀 **Token Launchpad** — Deploy fee-sharing tokens in 3 steps
+- 🔧 **Diagnostics** — RPC latency, block height & sync status
+- 🔓 **Guest Mode** — No wallet needed
+
+## Tech
+
+Next.js 16 · React 19 · TypeScript · Vanilla CSS · Framer Motion · Solana Web3.js
+
+## Run Locally
 
 ```bash
+git clone https://github.com/colnx0/Bags-pulse-terminal.git
+cd Bags-pulse-terminal
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
